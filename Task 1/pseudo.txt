@@ -1,0 +1,54 @@
+Task 1.1
+
+create a variable to hold a list of intergers called int_list
+
+Ask user to input a  positive number and append this to the list of numbers
+
+While the number given is not equal to 0
+	Ask user to input a positive number and add this to the int_list variable
+
+create a variable to contain the highest number given and call it highest_given_number and set it to 0 (at this point in the code a 0 will have been given)
+
+loop through each element in the int_list
+	if current index element is greater than the highest number given variable
+		set highest_number_given to the current indexed element of the list of numbers
+		
+Print highest_given_number (at this point the loop would have iterated over the entirety of int_list
+
+Task 1.2
+
+Get arbitrary number of integers
+
+create a variable to store the final sum of the number of integers called sum_of_numbers and set it to 0
+
+loop over the abitrary number of integers
+	add the current indexed element to the sum_of_numbers
+
+print sum_of_numbers divided by the amount of numbers in the arbitrary list of numbers
+
+Task 1.3
+
+Get a grocery list and input it into a variable call grocery_list (this variable will be stored as a string array)
+
+create a variable called current_product (this is to contain the current alphabetical product)
+
+loop the below code an amount of times equal to the amount of products in grocery_list
+	loop through grocery_list
+		if the current index element should come before current_product or current_product is equal to an empty string
+			then set current_product to the current indexed element
+		
+		print current_product (at this point the for loop has gone through the grocery list and has found what product should be first in alphabetical order
+		remove the current_product from the grocery list (we do this so an item we have found to be the first in alphabetical order does not get found again)
+	
+
+
+Task 1.4
+
+Get input from user and store in a variable called X
+Get input from user and store in a variable called Y
+
+Create a variable called S and set it to X + Y 
+Create a variable called A and set it to S / 2
+Create a variable called P and set it to X * Y
+
+print S + ", " + A + ", " + P (this will print the individual variables with a comma and a space between them) 

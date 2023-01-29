@@ -1,0 +1,6 @@
+The current total task amount is 2
+The current total completed task amount is 0
+The current total uncompleted task amount is 2
+The current total overdue task amount is 1
+The current percentage of uncompleted tasks is %100.0
+The current percentage of overdue task is %50.0

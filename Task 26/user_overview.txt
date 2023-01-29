@@ -1,0 +1,16 @@
+There are currently 2 users registered
+There are currently 2 assigned tasks
+
+Stats for user admin are listed below
+The total number of tasks assigned to this user is 2
+The percentage of tasks assigned to this user is %100.0
+The percentage of completed tasks assigned to this user is %0
+The percentage of uncompleted tasks assigned to this user is %100.0
+The percentage of overdue tasks assigned to this user is %50.0
+
+Stats for user lewis are listed below
+The total number of tasks assigned to this user is 0
+The percentage of tasks assigned to this user is %0
+The percentage of completed tasks assigned to this user is %0
+The percentage of uncompleted tasks assigned to this user is %0
+The percentage of overdue tasks assigned to this user is %0

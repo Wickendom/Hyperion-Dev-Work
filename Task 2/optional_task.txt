@@ -1,0 +1,6 @@
+Create a variable called fibonacci_sequence
+Ask user for a number and store it in a variable called n
+loop over the following code n times
+	add together the current index in the fibonacci_sequence and the next number in the fibonacci_sequence together and append this value to the fibonacci_sequence variable
+
+print fibonacci_sequence

@@ -1,0 +1,10 @@
+Ask user to input 4 numbers and store in a variable called list_of_numbers
+create an empty list of numbers variable called ordered_list_of_numbers
+loop this code an amount of times equal to the amount of numbers in list_of_numbers
+	loop over the list_of_numbers using the index from the first loop (this is so we can compare this number to the other numbers we have been given)
+		If the first loops index is the smallest in the list_of_numbers and is not already in ordered_list_of_numbers
+			append this number to ordered_list_of_numbers
+
+
+
+print ordered_list_of_numbers
