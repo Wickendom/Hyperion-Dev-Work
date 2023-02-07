@@ -39,9 +39,12 @@ def get_email(index):
 
 def get_unread_emails():
     unread_emails = []
+    index = 0
     for email in inbox:
         if email.has_been_read is not True:
+            get_email(index)
             unread_emails.append(email)
+        index += 1
 
     return unread_emails
 
@@ -65,7 +68,7 @@ def delete(index):
 user_choice = ""
 
 while user_choice != "quit":
-    user_choice = input("What would you like to do - read/mark spam/send/quit?")
+    user_choice = input("What would you like to do - read/mark spam/send/quit/get spam/email amount/unread emails/ delete email?")
     if user_choice == "read":
         # gets the email at the given index and prints out the contents and sets the email to read
         index = int(input("Please enter the index of the email you would like to read "))
@@ -79,6 +82,17 @@ while user_choice != "quit":
         sender_address = input("Please enter the senders address ")
         email_contents = input("Please enter the contents of the email")
         add_email(sender_address, email_contents)
+    elif user_choice == "get spam":
+        for email in get_spam_emails():
+            print(f"{email.from_address}\n{email.email_contents}")
+    elif user_choice == "email amount":
+        print(get_count())
+    elif user_choice == "unread emails":
+        for email in get_unread_emails():
+            print(f"{email.from_address}\n{email.email_contents}")
+    elif user_choice == "delete email":
+        index = int(input("Please enter the index of the email you wish to delete "))
+        delete(index)
     elif user_choice == "quit":
         print("Goodbye")
     else:
