@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+}
+
+img{
+    width:200px;
+    height:200px;
+    transition: 1s ease;
+}
+
+img:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+
+.items{
+    display:inline;
+}
+
+.item{
+    padding-right:10px;
+}
+
+.item-row{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #2460666b;
+}

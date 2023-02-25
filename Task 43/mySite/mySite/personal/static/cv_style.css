@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+    background-color:darkseagreen;
+}
+
+.techStack > ul{
+    display: inline;
+    list-style:none;
+}
+
+.techStack{
+    text-align: center;
+}
+
+h3{
+    margin-bottom:0px;
+}
